@@ -1,5 +1,9 @@
 # Word2Vec
 
+[TOC]
+
+
+
 ## kaggle竞赛
 
 - [DeepLearningMovies](./DeepLearningMovies/)
