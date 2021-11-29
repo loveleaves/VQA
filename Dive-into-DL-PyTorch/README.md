@@ -7,3 +7,8 @@
 课程主页：https://courses.d2l.ai/zh-v2/ 
 
 教材：https://zh-v2.d2l.ai/
+
+代码：[py文件](https://github.com/loveleaves/Dive_into_DL/tree/main/py_file/PyTorch)   [Jupyter Notebook](https://zh-v2.d2l.ai/d2l-zh.zip)
+
+
+
