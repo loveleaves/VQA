@@ -48,3 +48,9 @@
 [本仓库](./Related-data.md) 
 
 [原仓库](https://github.com/CCYChongyanChen/VQA_AlgorithmDatasets) : https://github.com/CCYChongyanChen/VQA_AlgorithmDatasets
+
+### 实现
+
+网站 : https://visualqa.org/   Pytorch+python2
+
+TF1+VGG+python3 simple demo : https://github.com/iamaaditya/VQA_Demo
