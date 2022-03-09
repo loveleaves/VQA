@@ -41,3 +41,10 @@
 
 
 
+## VQA
+
+### VQA视觉问题 相关资料总结
+
+[本仓库](./Related-data.md) 
+
+[原仓库](https://github.com/CCYChongyanChen/VQA_AlgorithmDatasets) : https://github.com/CCYChongyanChen/VQA_AlgorithmDatasets

@@ -1,6 +1,7 @@
 # 1、准备数据
 import os
 import datetime
+# os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 #打印时间
 def printbar():
     nowtime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -14,9 +15,9 @@ transform_train = transforms.Compose(
     [transforms.ToTensor()])
 transform_valid = transforms.Compose(
     [transforms.ToTensor()])
-ds_train = datasets.ImageFolder("./data/cifar2/train/",
+ds_train = datasets.ImageFolder("./train/",
             transform = transform_train,target_transform= lambda t:torch.tensor([t]).float())
-ds_valid = datasets.ImageFolder("./data/cifar2/test/",
+ds_valid = datasets.ImageFolder("./test/",
             transform = transform_train,target_transform= lambda t:torch.tensor([t]).float())
 
 print(ds_train.class_to_idx)

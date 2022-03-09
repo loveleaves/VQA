@@ -25,7 +25,7 @@ LABEL = torchtext.data.Field(sequential=False, use_vocab=False)
 #2,构建表格型dataset
 #torchtext.data.TabularDataset可读取csv,tsv,json等格式
 ds_train, ds_valid = torchtext.data.TabularDataset.splits(
-        path='./data/imdb', train='train.tsv',test='test.tsv', format='tsv',
+        path='./', train='train.tsv',test='test.tsv', format='tsv',
         fields=[('label', LABEL), ('text', TEXT)],skip_header = False)
 
 #3,构建词典
